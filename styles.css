@@ -1,0 +1,134 @@
+
+*
+{
+    margin: 0 auto;
+    font-family:Arial;
+}
+
+/*-----------------------------------------------------------Header-----------------------------------------------------------*/
+header
+{
+    width:100%;
+    height:250px;
+    Background-color: skyblue;
+    background-size: 100%, cover;
+
+    animation-name: Home;
+    animation-duration: 2s;
+
+    Text-align: center;
+    Font-size: 30px;
+    color: White;
+}
+header h1
+{
+    padding: 125px;
+}
+
+/* Standard syntax */
+@keyframes Home {
+    from {filter: brightness(0%)}
+    to {filter: brightness(100%);}
+}
+
+/*---------------------------------------------------------Navigation---------------------------------------------------------*/
+nav
+{
+    position:sticky;
+    top: 0px;
+}
+nav ul 
+{
+    text-align:center;
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: center;
+    display:table;
+}
+nav li
+{
+    display: inline-block;
+    padding: 20px 0;
+}
+nav a
+{
+    color: Black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:Black;
+    color:white;
+}
+
+/*------------------------------------------------------------Content------------------------------------------------------------*/
+
+#Content
+{
+    display: table;
+    width:100%;
+}
+
+#Content #Col1
+{
+    display:table-cell;
+    Width:15%;
+    background-color:Black;
+    text-align:left; 
+}
+#Content #Col2
+{
+    display:table-cell;
+    Width:68%;
+    text-align:center;
+    background-color:White;
+    Color:Black;
+    padding:10px;
+}
+#Content #Col3
+{
+    display:table-cell;
+    Width:15%;
+    text-align:right;
+    background-color:Black;
+}
+
+/*-----------------------------------------------------------Footer-----------------------------------------------------------*/
+footer
+{
+    display: table;
+    width:100%;
+}
+
+footer #Col1
+{
+    Width:33%;
+    display:table-cell;
+    background-color:White;
+    text-align:left;
+    padding: 20px 50px;
+}
+footer #Col2
+{
+    Width:33%;
+    text-align:center;
+    display:table-cell;
+    padding: 20px 50px;
+    background-color:White;
+}
+footer #Col3
+{
+    Width:33%;
+    display:table-cell;
+    text-align:right;
+    padding: 20px 50px;
+    background-color:White;
+}
+
+
+
+
